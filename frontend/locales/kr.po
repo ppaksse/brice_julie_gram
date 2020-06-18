@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Language: kr"
+
+#: src/components/Footer/index.js
+msgid "About Us"
+msgstr "회사소개"
+
+#: src/components/Footer/index.js
+msgid "Support"
+msgstr "지원"
+
+#: src/components/Footer/index.js
+msgid "Blog"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Press"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "API"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Jobs"
+msgstr "채용"
+
+#: src/components/Footer/index.js
+msgid "Privacy"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Terms"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Directory"
+msgstr ""
+
+#: src/components/Footer/index.js
+msgid "Language"
+msgstr "언어"
+
+#: src/components/LoginForm/presenter.js
+#: src/components/SignupForm/presenter.js
+msgid "Username"
+msgstr "아이디"
+
+#: src/components/LoginForm/presenter.js
+#: src/components/SignupForm/presenter.js
+msgid "Password"
+msgstr ""
+
+#: src/components/LoginForm/presenter.js
+msgid "Log in"
+msgstr ""
+
+#: src/components/LoginForm/presenter.js
+msgid "or"
+msgstr ""
+
+#: src/components/LoginForm/presenter.js
+#: src/components/SignupForm/presenter.js
+msgid "Log in with Facebook"
+msgstr ""
+
+#: src/components/LoginForm/presenter.js
+msgid "Forgot password?"
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "Sign up to see photos and videos from your friends."
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "Email"
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "Full Name"
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "Sign up"
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "By signing up, you agree to our "
+msgstr ""
+
+#: src/components/SignupForm/presenter.js
+msgid "Terms & Privacy Policy"
+msgstr ""

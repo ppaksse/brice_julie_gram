@@ -36,6 +36,8 @@ django-taggit = "*"
 django-taggit-serializer = "*"
 cookiecutter = "*"
 djangorestframework-jwt = "*"
+django-cors-headers = "*"
+awsebcli = "*"
 
 [dev-packages]
 

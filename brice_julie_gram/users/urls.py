@@ -1,4 +1,6 @@
 from django.conf.urls import url
+from django.urls import path
+
 
 from . import views
 
@@ -39,6 +41,7 @@ urlpatterns = [
         view=views.UserProfile.as_view(),
         name='user_profile'
     ),
+    # path("<username>/", views.UserProfile.as_view(), name="user_profile"),
     url(
         regex=r'^(?P<username>\w+)/password/$',
         view=views.ChangePassword.as_view(),

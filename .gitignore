@@ -283,3 +283,8 @@ pip-selfcheck.json
 brice_julie_gram/media/
 
 .pytest_cache/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

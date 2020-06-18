@@ -5,6 +5,7 @@ from django.contrib import admin
 from django.views.generic import TemplateView
 from django.views import defaults as default_views
 from rest_framework_jwt.views import obtain_jwt_token
+from brice_julie_gram import views
 
 urlpatterns = [
     # Django Admin, use {% url 'admin:index' %}
@@ -21,6 +22,8 @@ urlpatterns = [
     path("images/", include("brice_julie_gram.images.urls", namespace="images")),
     path("notifications/", include("brice_julie_gram.notifications.urls", namespace="notifications")),
     # Your stuff: custom urls includes go here
+    path("", views.ReactAppView.as_view()),
+
 ] + static(
     settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
 )
